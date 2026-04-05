@@ -25,8 +25,17 @@ Aplicação mobile desenvolvida com Ionic + Angular para gerenciamento de senhas
 ---
 
 ## Interface
+
+Página inicial onde é possível escolher o tipo de senha que quer solicitar, apenas clicando no botão ele já gera e mostra a senha.
+
 <img width="1365" height="721" alt="Captura de tela 2026-04-05 204048" src="https://github.com/user-attachments/assets/c89cc3e6-d72e-4c4b-8f8b-074211b84cfd" />
+
+Parte que contabiliza a quantidade de senhas geradas e o tipo de atendimento.
+
 <img width="1363" height="602" alt="Captura de tela 2026-04-05 204112" src="https://github.com/user-attachments/assets/948123dc-5262-4a4d-af36-b991b185d242" />
+
+Total de senhas contabilizadas após terem sido geradas uma de cada atendimento.
+
 <img width="1365" height="725" alt="Captura de tela 2026-04-05 204134" src="https://github.com/user-attachments/assets/65829eb6-567c-4bbc-972d-151570e7aa1f" />
 
 ---
