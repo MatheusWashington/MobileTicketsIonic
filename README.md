@@ -30,9 +30,13 @@ Página inicial onde é possível escolher o tipo de senha que quer solicitar, a
 
 <img width="1365" height="721" alt="Captura de tela 2026-04-05 204048" src="https://github.com/user-attachments/assets/c89cc3e6-d72e-4c4b-8f8b-074211b84cfd" />
 
+---
+
 Parte que contabiliza a quantidade de senhas geradas e o tipo de atendimento.
 
 <img width="1363" height="602" alt="Captura de tela 2026-04-05 204112" src="https://github.com/user-attachments/assets/948123dc-5262-4a4d-af36-b991b185d242" />
+
+---
 
 Total de senhas contabilizadas após terem sido geradas uma de cada atendimento.
 
