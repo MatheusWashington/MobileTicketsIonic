@@ -32,7 +32,7 @@ Aplicação mobile desenvolvida com Ionic + Angular para gerenciamento de senhas
 
 Página onde é possível escolher o tipo de senha que quer solicitar, apenas clicando no botão ele já gera e mostra a senha.
 
-<img width="1365" height="721" alt="Captura de tela 2026-04-05 204048" src="https://github.com/user-attachments/assets/c89cc3e6-d72e-4c4b-8f8b-074211b84cfd" />
+<img width="1362" height="602" alt="image" src="https://github.com/user-attachments/assets/c2fed6c6-af27-4b42-98ee-ac9bbcc2c528" />
 
 ---
 
@@ -48,7 +48,8 @@ Permite chamar as senhas geradas pra atendimento, ainda sem obedecer ordem de pr
 
 Exibe e contabiliza a quantidade de senhas geradas por tipo de atendimento.
 
-<img width="1363" height="602" alt="Captura de tela 2026-04-05 204112" src="https://github.com/user-attachments/assets/948123dc-5262-4a4d-af36-b991b185d242" />
+<img width="1363" height="600" alt="image" src="https://github.com/user-attachments/assets/15548a7b-bde4-43a2-b485-5f28aa4646b8" />
+
 
 ---
 
@@ -56,7 +57,12 @@ Exibe e contabiliza a quantidade de senhas geradas por tipo de atendimento.
 
 Total de senhas contabilizadas após terem sido geradas uma de cada atendimento.
 
-<img width="1365" height="725" alt="Captura de tela 2026-04-05 204134" src="https://github.com/user-attachments/assets/65829eb6-567c-4bbc-972d-151570e7aa1f" />
+<img width="1365" height="602" alt="image" src="https://github.com/user-attachments/assets/d8390fd4-8068-49ef-a44c-51dbcb3efb72" />
+
+Senhas sendo chamadas para atendimento e histórico.
+
+<img width="1343" height="569" alt="image" src="https://github.com/user-attachments/assets/c2309b28-c16c-4aba-92a8-097ebe0f8b10" />
+
 
 ---
 
