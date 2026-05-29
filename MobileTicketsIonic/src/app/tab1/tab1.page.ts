@@ -8,6 +8,7 @@ import { IonCard, IonInput, IonCardHeader, IonCardContent, IonButton} from '@ion
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss'],
+  standalone: true,
   imports: [IonHeader, IonToolbar, IonTitle, IonContent, ExploreContainerComponent, IonCard, IonInput, IonCardHeader, IonCardContent, IonButton],
 })
 export class Tab1Page {

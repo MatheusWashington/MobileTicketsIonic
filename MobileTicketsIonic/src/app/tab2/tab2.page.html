@@ -1,17 +1,52 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Atendimento
-    </ion-title>
+    <ion-title>Atendimentos</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Atendimento</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding">
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Senha Atual</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <h1>{{ senhaAtual }}</h1>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Próxima da Fila</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <h2>{{ proximaSenha }}</h2>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button expand="block" (click)="chamarProxima()">
+    Chamar Próxima
+  </ion-button>
+
+  <ion-button
+    expand="block"
+    color="success"
+    (click)="finalizarAtendimento()">
+    Finalizar Atendimento
+  </ion-button>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Últimas Chamadas</ion-card-title>
+    </ion-card-header>
+
+    <ion-list>
+  @for (senha of historico; track senha) {
+  <ion-item>{{ senha }}</ion-item>
+}
+</ion-list>
+  </ion-card>
+
 </ion-content>
