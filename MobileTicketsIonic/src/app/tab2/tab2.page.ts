@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
 import {
   IonHeader,
   IonToolbar,
@@ -15,10 +17,11 @@ import {
 
 @Component({
   selector: 'app-tab2',
-  templateUrl: 'tab2.page.html',
-  styleUrls: ['tab2.page.scss'],
+  templateUrl: './tab2.page.html',
+  styleUrls: ['./tab2.page.scss'],
   standalone: true,
   imports: [
+    CommonModule,
     IonHeader,
     IonToolbar,
     IonTitle,
@@ -30,7 +33,7 @@ import {
     IonButton,
     IonList,
     IonItem
-  ],
+  ]
 })
 export class Tab2Page {
 
@@ -49,8 +52,11 @@ export class Tab2Page {
   chamarProxima() {
     if (this.fila.length > 0) {
       this.senhaAtual = this.fila.shift()!;
+
       this.proximaSenha =
-        this.fila.length > 0 ? this.fila[0] : 'Sem fila';
+        this.fila.length > 0
+          ? this.fila[0]
+          : 'Sem fila';
 
       this.historico.unshift(this.senhaAtual);
     }

@@ -26,7 +26,10 @@
     </ion-card-content>
   </ion-card>
 
-  <ion-button expand="block" (click)="chamarProxima()">
+  <ion-button
+    expand="block"
+    color="primary"
+    (click)="chamarProxima()">
     Chamar Próxima
   </ion-button>
 
@@ -42,11 +45,12 @@
       <ion-card-title>Últimas Chamadas</ion-card-title>
     </ion-card-header>
 
-    <ion-list>
-  @for (senha of historico; track senha) {
-  <ion-item>{{ senha }}</ion-item>
-}
-</ion-list>
+    <p>Histórico: {{ historico.length }}</p>
+    <ion-card-content>
+      <div *ngFor="let senha of historico">
+        {{ senha }}
+      </div>
+    </ion-card-content>
   </ion-card>
 
 </ion-content>
